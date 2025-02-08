@@ -1,0 +1,18 @@
+Package: HeartDisease
+Type: Package
+Title: Heart Disease Analysis
+Version: 0.1.0
+Author: Rosa Pacheco
+Maintainer: Rosa Pacheco <rmp354@nau.edu>
+Description: Analyzes heart disease dataset and provides visualizations..
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+   ggplot2,
+  corrplot,
+  viridis,
+  dplyr
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
